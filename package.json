@@ -119,6 +119,7 @@
     "human-signals": "^2.1.0",
     "ieee754": "^1.2.1",
     "iferr": "^0.1.5",
+    "image-webpack-loader": "^8.1.0",
     "import-local": "^3.1.0",
     "imurmurhash": "^0.1.4",
     "infer-owner": "^1.0.4",
@@ -312,5 +313,9 @@
   "bugs": {
     "url": "https://github.com/Lisavi28/food-festival/issues"
   },
-  "homepage": "https://github.com/Lisavi28/food-festival#readme"
+  "homepage": "https://github.com/Lisavi28/food-festival#readme",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "webpack-bundle-analyzer": "^4.5.0"
+  }
 }
